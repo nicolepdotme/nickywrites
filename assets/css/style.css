@@ -81,6 +81,7 @@ h1 {
     columns: 1;
   }
 }
+
 .artifact-preview {
   display: block;
   margin: 24px 0;
@@ -103,4 +104,30 @@ h1 {
 
 .button:hover {
   text-decoration: underline;
+}
+
+.about-page {
+  max-width: 720px;
+}
+
+.about-intro {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.page-cta {
+  margin-top: 48px;
+}
+
+.resume-page {
+  max-width: 720px;
+}
+
+.resume-intro {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.resume-highlights {
+  margin-top: 56px;
 }
