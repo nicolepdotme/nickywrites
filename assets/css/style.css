@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 24px;
+}
+
+.project-card h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-page {
+  max-width: 760px;
+}
+
+.project-page section {
+  margin-top: 48px;
+}
+
+.project-page h2 {
+  margin-bottom: 12px;
+}
+
+.eyebrow {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.project-intro {
+  font-size: 1.25rem;
+  max-width: 650px;
+}
+
+.skill-list {
+  columns: 2;
+}
+
+.back-link {
+  margin-top: 56px;
+}
+
+@media (max-width: 700px) {
+  .skill-list {
+    columns: 1;
+  }
+}
+.artifact-preview {
+  display: block;
+  margin: 24px 0;
+}
+
+.artifact-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 1px solid currentColor;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
