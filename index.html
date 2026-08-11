@@ -1,35 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nicky Writes | Nicole Peery, Technical Writer</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="work.html">Work</a>
-    <a href="about.html">About</a>
-    <a href="resume.html">Résumé</a>
-  </nav>
+  <header class="site-header">
+    <div class="site-header-inner">
+
+      <a class="site-name" href="index.html">
+        Nicky Writes
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Résumé</a>
+      </nav>
+
+    </div>
+  </header>
 
   <main>
-    <p>Nicky Writes</p>
 
-    <h1>Nicole Peery</h1>
+    <section class="hero">
 
-    <h2>Technical Writer</h2>
+      <p class="hero-role">Technical Writer</p>
 
-    <p>
-     Coming soon
-    </p>
+      <h1>
+        I write the docs I always wished I had.
+      </h1>
 
-    <p>
-      <a href="work.html">View my work</a>
-    </p>
+      <p class="hero-intro">
+        I'm Nicole. My background spans healthcare technology,
+        SaaS support, web development, and UX. I've implemented systems,
+        trained users, troubleshot technical problems, and written the
+        documentation that helps people figure out what to do next.
+      </p>
+
+      <div class="button-group">
+        <a class="button button-primary" href="work.html">
+          View my work
+        </a>
+
+        <a class="button" href="resume.html">
+          View résumé
+        </a>
+      </div>
+
+    </section>
+
+    <section>
+
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Some of the problems I've solved with documentation.</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h2>CMMS Compliance Audit Prep</h2>
+
+          <p>
+            A repeatable audit-prep workflow that reduced preparation
+            time by two to three days.
+          </p>
+
+          <a href="projects/cmms-audit.html">
+            View project →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <h2>Medical Equipment Onboarding</h2>
+
+          <p>
+            A practical guide for improving equipment records,
+            traceability, and CMMS consistency.
+          </p>
+
+          <a href="projects/equipment-onboarding.html">
+            View project →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <h2>HIPAA SOP Rewrite</h2>
+
+          <p>
+            A technical editing project that turned dense compliance
+            language into task-focused guidance.
+          </p>
+
+          <a href="projects/hipaa-sop.html">
+            View project →
+          </a>
+        </article>
+
+      </div>
+
+    </section>
+
   </main>
 
 </body>
+
 </html>
