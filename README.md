@@ -1,18 +1,34 @@
 # Nicky Writes
 
-Portfolio site for Nicole Peery, a technical writer specializing in healthcare technology, SaaS, product documentation, knowledge bases, and user education.
+The portfolio website of Nicole Peery, an artist, writer, and technical problem-solver based in Tucson, Arizona.
 
-## About this site
+**An artist’s eye + a technical mind.**
 
-This site includes selected technical writing and documentation projects, including:
+This site brings together creative and technical work shaped by experience in SaaS support, web development, graphic design, UX, user education, and healthcare technology.
 
-- User guides and procedural documentation
-- Healthcare technology documentation
-- SOPs and work instructions
-- Knowledge management and documentation strategy
-- UX and task-focused content
+## Selected work
 
-Built as a static site and hosted with GitHub Pages.
+The portfolio includes:
+
+- WordPress help content and a dashboard FAQ
+- A student guide adapted from a Treehouse Front-End Techdegree mentoring session
+- Writing about ClickUp and organizing creative projects
+- Healthcare technology documentation, including CMMS workflows, equipment onboarding, SOPs, and compliance preparation
+
+Projects are published as pages on the site, with supporting images and documents where applicable.
+
+## Site structure
+
+- `index.html` — home and featured work
+- `work.html` — selected projects
+- `about.html` — background and approach
+- `resume.html` — résumé page
+- `projects/` — individual portfolio pieces
+- `assets/` — styles, images, and downloadable documents
+
+## Built with
+
+A static HTML and CSS website hosted on GitHub Pages. No site generator or framework is required.
 
 ## Website
 
